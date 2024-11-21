@@ -99,9 +99,11 @@ public class JInternalFrameAutores extends javax.swing.JInternalFrame {
         jBBuscar = new javax.swing.JButton();
         jTextBuscar = new javax.swing.JTextField();
 
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, " Autores Registrados", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        jPanel3.setBackground(new java.awt.Color(40, 86, 115));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, " Autores Registrados", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(255, 255, 255))); // NOI18N
         jPanel3.setLayout(new javax.swing.OverlayLayout(jPanel3));
 
+        jTableAutor.setBackground(new java.awt.Color(209, 238, 234));
         jTableAutor.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
@@ -117,36 +119,51 @@ public class JInternalFrameAutores extends javax.swing.JInternalFrame {
 
         jPanel3.add(jScrollPane1);
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Registrar / Actualizar", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(40, 86, 115));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Registrar / Actualizar", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(255, 255, 255))); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("ID");
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("FechaNac");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Email");
 
+        jTextidAutor.setBackground(new java.awt.Color(209, 238, 234));
+
+        jTextFechaNac.setBackground(new java.awt.Color(209, 238, 234));
+
+        jTextNombres.setBackground(new java.awt.Color(209, 238, 234));
+
+        jTextApellidos.setBackground(new java.awt.Color(209, 238, 234));
+
+        jTextCedula.setBackground(new java.awt.Color(209, 238, 234));
+
+        jTextEmail.setBackground(new java.awt.Color(209, 238, 234));
+
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Nombres");
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Apellidos");
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Cédula");
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Transacciones", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(40, 86, 115));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Transacciones", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(255, 255, 255))); // NOI18N
 
+        jBAgregar.setBackground(new java.awt.Color(58, 114, 142));
         jBAgregar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jBAgregar.setForeground(new java.awt.Color(0, 0, 102));
+        jBAgregar.setForeground(new java.awt.Color(255, 255, 255));
         jBAgregar.setText("Agregar");
         jBAgregar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,8 +171,9 @@ public class JInternalFrameAutores extends javax.swing.JInternalFrame {
             }
         });
 
+        jBBorrar.setBackground(new java.awt.Color(58, 114, 142));
         jBBorrar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jBBorrar.setForeground(new java.awt.Color(0, 0, 102));
+        jBBorrar.setForeground(new java.awt.Color(255, 255, 255));
         jBBorrar.setText("Borrar");
         jBBorrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -163,8 +181,9 @@ public class JInternalFrameAutores extends javax.swing.JInternalFrame {
             }
         });
 
+        jBEditar.setBackground(new java.awt.Color(58, 114, 142));
         jBEditar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jBEditar.setForeground(new java.awt.Color(0, 0, 102));
+        jBEditar.setForeground(new java.awt.Color(255, 255, 255));
         jBEditar.setText("Editar");
         jBEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -172,8 +191,9 @@ public class JInternalFrameAutores extends javax.swing.JInternalFrame {
             }
         });
 
+        jBActualizar.setBackground(new java.awt.Color(58, 114, 142));
         jBActualizar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jBActualizar.setForeground(new java.awt.Color(0, 0, 102));
+        jBActualizar.setForeground(new java.awt.Color(255, 255, 255));
         jBActualizar.setText("Actualizar");
         jBActualizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -181,8 +201,9 @@ public class JInternalFrameAutores extends javax.swing.JInternalFrame {
             }
         });
 
+        jBBuscar.setBackground(new java.awt.Color(58, 114, 142));
         jBBuscar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jBBuscar.setForeground(new java.awt.Color(0, 0, 102));
+        jBBuscar.setForeground(new java.awt.Color(255, 255, 255));
         jBBuscar.setText("Buscar");
         jBBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -190,6 +211,7 @@ public class JInternalFrameAutores extends javax.swing.JInternalFrame {
             }
         });
 
+        jTextBuscar.setBackground(new java.awt.Color(209, 238, 234));
         jTextBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextBuscarActionPerformed(evt);
@@ -260,11 +282,11 @@ public class JInternalFrameAutores extends javax.swing.JInternalFrame {
                 .addGap(36, 36, 36)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jTextNombres, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
-                    .addComponent(jTextidAutor)
                     .addComponent(jTextApellidos)
                     .addComponent(jTextCedula)
                     .addComponent(jTextFechaNac)
-                    .addComponent(jTextEmail))
+                    .addComponent(jTextEmail)
+                    .addComponent(jTextidAutor))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(14, 14, 14))
