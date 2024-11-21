@@ -122,11 +122,12 @@ public class JInternalFrameRevista extends javax.swing.JInternalFrame {
 
         jPanel3.add(jScrollPane1);
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Registrar / Actualizar", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(40, 86, 115));
+        jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Registrar / Actualizar", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(255, 255, 255))); // NOI18N
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Numero");
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 54, -1, -1));
 
@@ -136,6 +137,7 @@ public class JInternalFrameRevista extends javax.swing.JInternalFrame {
         jLabel4.setForeground(new java.awt.Color(0, 0, 102));
         jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 137, -1, -1));
 
+        jTextnumero.setBackground(new java.awt.Color(209, 238, 234));
         jTextnumero.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextnumeroActionPerformed(evt);
@@ -143,6 +145,7 @@ public class JInternalFrameRevista extends javax.swing.JInternalFrame {
         });
         jPanel2.add(jTextnumero, new org.netbeans.lib.awtextra.AbsoluteConstraints(111, 50, 200, -1));
 
+        jTexthoraventa.setBackground(new java.awt.Color(209, 238, 234));
         jTexthoraventa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTexthoraventaActionPerformed(evt);
@@ -150,47 +153,55 @@ public class JInternalFrameRevista extends javax.swing.JInternalFrame {
         });
         jPanel2.add(jTexthoraventa, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 250, 200, -1));
 
+        jTexttitulo.setBackground(new java.awt.Color(209, 238, 234));
         jTexttitulo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTexttituloActionPerformed(evt);
             }
         });
         jPanel2.add(jTexttitulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(111, 90, 200, -1));
+
+        jTextissn.setBackground(new java.awt.Color(209, 238, 234));
         jPanel2.add(jTextissn, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 200, -1));
 
+        jTextprecio.setBackground(new java.awt.Color(209, 238, 234));
         jTextprecio.setText("0");
         jPanel2.add(jTextprecio, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 210, 200, -1));
+
+        jTextayo.setBackground(new java.awt.Color(209, 238, 234));
         jPanel2.add(jTextayo, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 130, 200, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Titulo");
         jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 94, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel10.setText("Ayo");
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setText("Año");
         jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("Issn");
         jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, -1, -1));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("Precio");
         jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, -1, -1));
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("HoraVenta");
         jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, -1, -1));
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Transacciones", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(40, 86, 115));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Transacciones", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(255, 255, 255))); // NOI18N
 
+        jBAgregarR.setBackground(new java.awt.Color(58, 114, 142));
         jBAgregarR.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jBAgregarR.setForeground(new java.awt.Color(0, 0, 102));
+        jBAgregarR.setForeground(new java.awt.Color(255, 255, 255));
         jBAgregarR.setText("Agregar");
         jBAgregarR.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -198,8 +209,9 @@ public class JInternalFrameRevista extends javax.swing.JInternalFrame {
             }
         });
 
+        jBBorrarR.setBackground(new java.awt.Color(58, 114, 142));
         jBBorrarR.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jBBorrarR.setForeground(new java.awt.Color(0, 0, 102));
+        jBBorrarR.setForeground(new java.awt.Color(255, 255, 255));
         jBBorrarR.setText("Borrar");
         jBBorrarR.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -207,8 +219,9 @@ public class JInternalFrameRevista extends javax.swing.JInternalFrame {
             }
         });
 
+        jBEditarR.setBackground(new java.awt.Color(58, 114, 142));
         jBEditarR.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jBEditarR.setForeground(new java.awt.Color(0, 0, 102));
+        jBEditarR.setForeground(new java.awt.Color(255, 255, 255));
         jBEditarR.setText("Editar");
         jBEditarR.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -216,8 +229,9 @@ public class JInternalFrameRevista extends javax.swing.JInternalFrame {
             }
         });
 
+        jBActualizarR.setBackground(new java.awt.Color(58, 114, 142));
         jBActualizarR.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jBActualizarR.setForeground(new java.awt.Color(0, 0, 102));
+        jBActualizarR.setForeground(new java.awt.Color(255, 255, 255));
         jBActualizarR.setText("Actualizar");
         jBActualizarR.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -225,8 +239,9 @@ public class JInternalFrameRevista extends javax.swing.JInternalFrame {
             }
         });
 
+        jBBuscarR.setBackground(new java.awt.Color(58, 114, 142));
         jBBuscarR.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jBBuscarR.setForeground(new java.awt.Color(0, 0, 102));
+        jBBuscarR.setForeground(new java.awt.Color(255, 255, 255));
         jBBuscarR.setText("Buscar");
         jBBuscarR.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -234,6 +249,7 @@ public class JInternalFrameRevista extends javax.swing.JInternalFrame {
             }
         });
 
+        jTextBuscarR.setBackground(new java.awt.Color(209, 238, 234));
         jTextBuscarR.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextBuscarRActionPerformed(evt);
@@ -287,9 +303,11 @@ public class JInternalFrameRevista extends javax.swing.JInternalFrame {
 
         jPanel2.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, -1, 250));
 
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Revista/Registradas", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(0, 0, 102))); // NOI18N
+        jPanel4.setBackground(new java.awt.Color(40, 86, 115));
+        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Revista/Registradas", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(255, 255, 255))); // NOI18N
         jPanel4.setLayout(new javax.swing.OverlayLayout(jPanel4));
 
+        jTableRevista.setBackground(new java.awt.Color(209, 238, 234));
         jTableRevista.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
